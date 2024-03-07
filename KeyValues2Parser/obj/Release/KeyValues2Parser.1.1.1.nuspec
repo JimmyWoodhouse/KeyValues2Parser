@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>KeyValues2Parser</id>
+    <version>1.1.1</version>
+    <title>KeyValues2Parser</title>
+    <authors>JimmyWoodhouse</authors>
+    <readme>README.md</readme>
+    <description>A library for parsing through kv2 files.
+For parsing VMAP files for example, you will need to decode the file to a kv2 format first, using 'dmxconvert.exe' (this is provided by Valve).
+Tested with Counter-Strike 2 VMAP files only.</description>
+    <releaseNotes>Added Class containing logic for structuring the data from the parsed VMap data</releaseNotes>
+    <tags>kv2 keyvalues2 valve source2 s2 vmap Counter-Strike 2 Counter Strike 2 cs2</tags>
+    <repository type="git" commit="ad55b84d42ee87ca3a1ddb16fdeb3e168dab31dd" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\bin\Release\net8.0\KeyValues2Parser.dll" target="lib\net8.0\KeyValues2Parser.dll" />
+    <file src="F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\README.md" target="\README.md" />
+  </files>
+</package>

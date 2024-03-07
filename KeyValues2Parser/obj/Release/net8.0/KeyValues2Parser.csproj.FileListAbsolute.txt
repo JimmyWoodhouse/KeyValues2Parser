@@ -33,3 +33,4 @@ F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\obj\Release\net8.
 F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\obj\Release\net8.0\refint\KeyValues2Parser.dll
 F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\obj\Release\net8.0\KeyValues2Parser.pdb
 F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\obj\Release\net8.0\ref\KeyValues2Parser.dll
+F:\Coding Stuff\GitHub Files\KeyValues2Parser\KeyValues2Parser\obj\Release\net8.0\KeyValues2Parser.sourcelink.json

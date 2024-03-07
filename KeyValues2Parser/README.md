@@ -4,6 +4,7 @@ For parsing VMAP files for example, you will need to decode the file to a kv2 fo
 Tested with Counter-Strike 2 VMAP files only.
 
 Data should be retrieved by calling the GetParsedVMapData() method in ParsedVMapDataGatherer.cs.
+You need to provide 2 arguments to this method, -game and -vmapFilepath, explained more below.
 
 
 
@@ -19,8 +20,25 @@ namespace YourProject
 {
 	public static class ExampleClass
 	{
-        private static void GetVmapRequiredData(List<VBlock> allWorldMeshes, List<VBlock> allEntities, List<VBlock> allInstanceGroups, List<VBlock> allInstances)
+        // takes 2 arguments: -game and -vmapFilepath
+        // -game is the path to your '...\game\csgo' folder. Eg: 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo'
+        // -vmapFilepath is the path to the vmap file that you are parsing
+        // Take a look in SetArgs() in GameConfigurationValues.cs
+        static void Main(string[] args)
         {
+            GetVmapRequiredData(args);
+        }
+        
+        private static void GetVmapRequiredData(string[] args)
+        {
+            var parsedVMapData = ParsedVMapDataGatherer.GetParsedVMapData(args);
+
+            List<VBlock> allWorldMeshes = parsedVMapData.VMapContents.AllWorldMeshes
+            List<VBlock> allEntities = parsedVMapData.VMapContents.AllEntities
+            List<VBlock> allInstanceGroups = parsedVMapData.VMapContents.AllInstanceGroups
+            List<VBlock> allInstances = parsedVMapData.VMapContents.AllInstances
+            List<VBlock> allPrefabs = parsedVMapData.VMapContents.AllPrefabs
+            
             Console.WriteLine();
             Console.WriteLine("Getting required data from the main vmap and prefabs...");
 
