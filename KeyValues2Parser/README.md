@@ -32,6 +32,10 @@ namespace YourProject
         private static void GetVmapRequiredData(string[] args)
         {
             var parsedVMapData = ParsedVMapDataGatherer.GetParsedVMapData(args);
+            if (parsedVMapData == null)
+            {
+                return;
+            }
 
             List<VBlock> allWorldMeshes = parsedVMapData.VMapContents.AllWorldMeshes;
             List<VBlock> allEntities = parsedVMapData.VMapContents.AllEntities;
