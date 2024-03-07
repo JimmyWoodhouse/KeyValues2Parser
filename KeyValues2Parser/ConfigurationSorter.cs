@@ -14,7 +14,7 @@ namespace KeyValues2Parser
 
         public static readonly Dictionary<VMap, Guid> prefabEntityIdsByVmap = new();
 
-        public static string vmapDecodedFolderPath;
+        public static string vmapDecodedFolderPath => GameConfigurationValues.vmapFilepathDirectory;
 
         public static string dmxConvertFilepath;
 
