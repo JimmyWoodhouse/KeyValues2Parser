@@ -97,10 +97,10 @@
                         break;
                     case "-vmapfilepath":
                     case "-mapfilepath":
-                        vmapName = args[i + 1].Replace(".vmap", string.Empty);
-                        if (string.IsNullOrWhiteSpace(vmapName))
+                        vmapFilepath = args[i + 1].Replace(".vmap", string.Empty);
+                        if (string.IsNullOrWhiteSpace(vmapFilepath))
                         {
-                            Console.WriteLine("gameCsgoFolderPath is null. Check what the -vmapName or -mapName parameters are set to, or remove them if unnecessary.");
+                            Console.WriteLine("vmapFilepath is null. Check what the -vmapName or -mapName parameters are set to, or remove them if unnecessary.");
                             return false;
                         }
                         i++;
@@ -119,9 +119,9 @@
 
             // sets vmapFilepath
             vmapName = Path.GetFileNameWithoutExtension(vmapFilepath);
-            if (string.IsNullOrWhiteSpace(vmapFilepath))
+            if (string.IsNullOrWhiteSpace(vmapName))
             {
-                Console.WriteLine("vmapFilepath is null. Check what the -vmapFilepath parameter is set to.");
+                Console.WriteLine("vmapName is null. Check what the -vmapFilepath parameter is set to.");
                 return false;
             }
             if (vmapFilepath.EndsWith(".vmap.txt"))
