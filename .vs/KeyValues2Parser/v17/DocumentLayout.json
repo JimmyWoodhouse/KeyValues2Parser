@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\keyvalues2parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\keyvalues2parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\keyvalues2parser.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\keyvalues2parser.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsedvmapdatagatherer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsedvmapdatagatherer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\configurationsorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\configurationsorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\directoryandfilehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\directoryandfilehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\allentitiesandhiddenentitymeshidsinspecificvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\allentitiesandhiddenentitymeshidsinspecificvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\angle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\angle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\gameconfigurationvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\gameconfigurationvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\meshandentityadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\meshandentityadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\prefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\prefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\quad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\quad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\selectionsetsinvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\selectionsetsinvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\vmapcontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\vmapcontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\vertices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\vertices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\enums\\visibilityhiddenflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\enums\\visibilityhiddenflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\constants\\selectionsetnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\constants\\selectionsetnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\constants\\classnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\constants\\classnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\constants\\globalization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\constants\\globalization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\vselectionset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\vselectionset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\vmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\vmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\vblockextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\vblockextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\varray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\varray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\parsingkv2\\vblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\parsingkv2\\vblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyValues2Parser",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\KeyValues2Parser.csproj",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
+              "RelativeToolTip": "KeyValues2Parser\\KeyValues2Parser.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T01:38:18.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyValues2Parser.csproj",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\KeyValues2Parser.csproj",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
+              "RelativeToolTip": "KeyValues2Parser\\KeyValues2Parser.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T01:31:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParsedVMapDataGatherer.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsedVMapDataGatherer.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsedVMapDataGatherer.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsedVMapDataGatherer.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsedVMapDataGatherer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:29:12.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DirectoryAndFileHelpers.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\DirectoryAndFileHelpers.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\DirectoryAndFileHelpers.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\DirectoryAndFileHelpers.cs",
+              "RelativeToolTip": "KeyValues2Parser\\DirectoryAndFileHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:29:06.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigurationSorter.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ConfigurationSorter.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ConfigurationSorter.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ConfigurationSorter.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ConfigurationSorter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:29:06.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SelectionSetsInVmap.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\SelectionSetsInVmap.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\SelectionSetsInVmap.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\SelectionSetsInVmap.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\SelectionSetsInVmap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:42.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Quad.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Quad.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\Quad.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Quad.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\Quad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:40.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Prefab.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Prefab.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\Prefab.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Prefab.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\Prefab.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:34.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParsedVMapData.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\ParsedVMapData.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\ParsedVMapData.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\ParsedVMapData.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\ParsedVMapData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:32.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeshAndEntityAdjuster.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\MeshAndEntityAdjuster.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\MeshAndEntityAdjuster.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\MeshAndEntityAdjuster.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\MeshAndEntityAdjuster.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA9wEAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:26.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameConfigurationValues.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\GameConfigurationValues.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\GameConfigurationValues.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\GameConfigurationValues.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\GameConfigurationValues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:23.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Angle.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Angle.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\Angle.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Angle.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\Angle.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:19.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AllEntitiesAndHiddenEntityMeshIdsInSpecificVmap.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\AllEntitiesAndHiddenEntityMeshIdsInSpecificVmap.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\AllEntitiesAndHiddenEntityMeshIdsInSpecificVmap.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\AllEntitiesAndHiddenEntityMeshIdsInSpecificVmap.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\AllEntitiesAndHiddenEntityMeshIdsInSpecificVmap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:15.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VMapContents.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\VMapContents.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\VMapContents.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\VMapContents.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\VMapContents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:28:06.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Vertices.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Vertices.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\Vertices.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\Vertices.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Models\\Vertices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:28:03.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VisibilityHiddenFlags.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Enums\\VisibilityHiddenFlags.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Enums\\VisibilityHiddenFlags.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Enums\\VisibilityHiddenFlags.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Enums\\VisibilityHiddenFlags.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:27:04.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Classnames.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\Classnames.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Constants\\Classnames.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\Classnames.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Constants\\Classnames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:41.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Globalization.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\Globalization.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Constants\\Globalization.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\Globalization.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Constants\\Globalization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:37.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SelectionSetNames.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\SelectionSetNames.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\Constants\\SelectionSetNames.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Constants\\SelectionSetNames.cs",
+              "RelativeToolTip": "KeyValues2Parser\\Constants\\SelectionSetNames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:34.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VSelectionSet.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VSelectionSet.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\VSelectionSet.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VSelectionSet.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\VSelectionSet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:25:40.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VMap.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VMap.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\VMap.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VMap.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\VMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:14.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VBlockExtensions.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VBlockExtensions.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\VBlockExtensions.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VBlockExtensions.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\VBlockExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:08.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VBlock.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VBlock.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\VBlock.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VBlock.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\VBlock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:26:03.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VArray.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VArray.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\VArray.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\VArray.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\VArray.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:25:51.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Model.cs",
+              "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\Model.cs",
+              "RelativeDocumentMoniker": "KeyValues2Parser\\ParsingKV2\\Model.cs",
+              "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsingKV2\\Model.cs",
+              "RelativeToolTip": "KeyValues2Parser\\ParsingKV2\\Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:25:46.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

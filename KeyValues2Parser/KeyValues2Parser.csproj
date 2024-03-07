@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.1.0</Version>
+    <Company>$(Authors)</Company>
+    <Title>KeyValues2Parser</Title>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Description>A library for parsing through kv2 files.
+For parsing VMAP files for example, you will need to decode the file to a kv2 format first, using 'dmxconvert.exe' (this is provided by Valve).
+Tested with Counter-Strike 2 VMAP files only.</Description>
+    <PackageTags>kv2;keyvalues2;valve;source2;s2;vmap;Counter-Strike 2; Counter Strike 2;cs2</PackageTags>
+    <PackageReleaseNotes>Added Class containing logic for structuring the data from the parsed VMap data</PackageReleaseNotes>
+    <Authors>JimmyWoodhouse</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
