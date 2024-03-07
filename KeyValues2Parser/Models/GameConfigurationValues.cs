@@ -95,8 +95,8 @@
                             gameCsgoFolderPath += '\\';
                         i++;
                         break;
-                    case "-vmapFilepath":
-                    case "-mapFilepath":
+                    case "-vmapfilepath":
+                    case "-mapfilepath":
                         vmapName = args[i + 1].Replace(".vmap", string.Empty);
                         if (string.IsNullOrWhiteSpace(vmapName))
                         {

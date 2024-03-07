@@ -1,6 +1,6 @@
 A library for parsing through kv2 files.
 
-For parsing VMAP files for example, you will need to decode the file to a kv2 format first, using 'dmxconvert.exe' (this is provided by Valve).
+There is no need to decode a file to kv2 format first, as this package does this for you.
 Tested with Counter-Strike 2 VMAP files only.
 
 Data should be retrieved by calling the GetParsedVMapData() method in ParsedVMapDataGatherer.cs.
@@ -11,10 +11,10 @@ You need to provide 2 arguments to this method, -game and -vmapFilepath, explain
 Example code:
 
 
-using Configuration.Constants;
-using Configuration.Models;
-using Configuration;
 using KeyValues2Parser;
+using KeyValues2Parser.Constants;
+using KeyValues2Parser.Models;
+using KeyValues2Parser.ParsingKV2;
 
 namespace YourProject
 {
@@ -33,11 +33,11 @@ namespace YourProject
         {
             var parsedVMapData = ParsedVMapDataGatherer.GetParsedVMapData(args);
 
-            List<VBlock> allWorldMeshes = parsedVMapData.VMapContents.AllWorldMeshes
-            List<VBlock> allEntities = parsedVMapData.VMapContents.AllEntities
-            List<VBlock> allInstanceGroups = parsedVMapData.VMapContents.AllInstanceGroups
-            List<VBlock> allInstances = parsedVMapData.VMapContents.AllInstances
-            List<VBlock> allPrefabs = parsedVMapData.VMapContents.AllPrefabs
+            List<VBlock> allWorldMeshes = parsedVMapData.VMapContents.AllWorldMeshes;
+            List<VBlock> allEntities = parsedVMapData.VMapContents.AllEntities;
+            List<VBlock> allInstanceGroups = parsedVMapData.VMapContents.AllInstanceGroups;
+            List<VBlock> allInstances = parsedVMapData.VMapContents.AllInstances;
+            List<VBlock> allPrefabs = parsedVMapData.VMapContents.AllPrefabs;
             
             Console.WriteLine();
             Console.WriteLine("Getting required data from the main vmap and prefabs...");
@@ -67,7 +67,7 @@ namespace YourProject
                         entity.Variables.Add("id", newEntityId.ToString());
 
                         // replaces the Id that the selection set contains, to ensure that it points to the new Id instead
-                        foreach (var selectionSet in selectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
+                        foreach (var selectionSet in parsedVMapData.SelectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
 						{
                             if (selectionSet == null)
                                 continue;
@@ -99,7 +99,7 @@ namespace YourProject
                             entityMesh.Variables.Add("id", newEntityMeshId.ToString());
 
                             // replaces the Id that the selection set contains, to ensure that it points to the new Id instead
-                            foreach (var selectionSet in selectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
+                            foreach (var selectionSet in parsedVMapData.SelectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
 						    {
                                 if (selectionSet == null)
                                     continue;
@@ -129,7 +129,7 @@ namespace YourProject
                         mesh.Variables.Add("id", newMeshId.ToString());
 
                         // replaces the Id that the selection set contains, to ensure that it points to the new Id instead
-                        foreach (var selectionSet in selectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
+                        foreach (var selectionSet in parsedVMapData.SelectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
 						{
                             if (selectionSet == null)
                                 continue;
@@ -157,7 +157,7 @@ namespace YourProject
                         instanceGroup.Variables.Add("id", newInstanceGroupId.ToString());
 
                         // replaces the Id that the selection set contains, to ensure that it points to the new Id instead
-                        foreach (var selectionSet in selectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
+                        foreach (var selectionSet in parsedVMapData.SelectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
 						{
                             if (selectionSet == null)
                                 continue;
@@ -185,7 +185,7 @@ namespace YourProject
                         instance.Variables.Add("id", newInstanceId.ToString());
 
                         // replaces the Id that the selection set contains, to ensure that it points to the new Id instead
-                        foreach (var selectionSet in selectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
+                        foreach (var selectionSet in parsedVMapData.SelectionSetsInPrefabByPrefabEntityId[prefabEntityIdByVmap.Value].GetAllInList())
 						{
                             if (selectionSet == null)
                                 continue;
@@ -212,11 +212,11 @@ namespace YourProject
             }
 
 
-            var allWorldMeshesInExampleSelectionSet = GetAllVBlocksInCorrectSelectionSet(allWorldMeshes, allInstances, selectionSetsInMainVmap.ExampleSelectionSet, selectionSetsInPrefabByPrefabEntityId.Values.Select(x => x.ExampleSelectionSet));
+            var allWorldMeshesInExampleSelectionSet = GetAllVBlocksInCorrectSelectionSet(allWorldMeshes, allInstances, parsedVMapData.SelectionSetsInMainVmap.ExampleSelectionSet, parsedVMapData.SelectionSetsInPrefabByPrefabEntityId.Values.Select(x => x.ExampleSelectionSet));
 
 
             // meshes
-            var allSelectionSetsInVmapAndAllPrefabs = selectionSetsInMainVmap.GetAllInList().Concat(selectionSetsInPrefabByPrefabEntityId.Values.SelectMany(x => x.GetAllInList())).ToList();
+            var allSelectionSetsInVmapAndAllPrefabs = parsedVMapData.SelectionSetsInMainVmap.GetAllInList().Concat(parsedVMapData.SelectionSetsInPrefabByPrefabEntityId.Values.SelectMany(x => x.GetAllInList())).ToList();
             var allWorldMeshesInNoSpecificSelectionSet = GetAllMeshesInNoSpecificSelectionSet(allWorldMeshes, allSelectionSetsInVmapAndAllPrefabs);
 
 
@@ -225,11 +225,11 @@ namespace YourProject
 
 
             // point entities
-            var hostageEntities = ConfigurationSorter.GetEntitiesByClassnameInSelectionSetList(allEntities, Classnames.HostageList, selectionSetsInMainVmap, selectionSetsInPrefabByPrefabEntityId);
+            var hostageEntities = ConfigurationSorter.GetEntitiesByClassnameInSelectionSetList(allEntities, Classnames.HostageList, parsedVMapData.SelectionSetsInMainVmap, parsedVMapData.SelectionSetsInPrefabByPrefabEntityId);
 
 
             // props
-            var allEntitiesInExampleSelectionSet = ConfigurationSorter.GetEntitiesInSpecificSelectionSet(allEntities, SelectionSetNames.ExampleSelectionSetName, selectionSetsInMainVmap, selectionSetsInPrefabByPrefabEntityId);
+            var allEntitiesInExampleSelectionSet = ConfigurationSorter.GetEntitiesInSpecificSelectionSet(allEntities, SelectionSetNames.ExampleSelectionSetName, parsedVMapData.SelectionSetsInMainVmap, parsedVMapData.SelectionSetsInPrefabByPrefabEntityId);
 
             Console.WriteLine("Finished getting required data from the main vmap and prefabs");
         }

@@ -4,13 +4,13 @@ using KeyValues2Parser.ParsingKV2;
 
 namespace KeyValues2Parser
 {
-	public class ParsedVMapDataGatherer
+	public static class ParsedVMapDataGatherer
 	{
-        internal SelectionSetsInVmap selectionSetsInMainVmap { get; private set; }
-        internal Dictionary<Guid, SelectionSetsInVmap> selectionSetsInPrefabByPrefabEntityId { get; private set; } = new();
+        internal static SelectionSetsInVmap selectionSetsInMainVmap { get; private set; }
+        internal static Dictionary<Guid, SelectionSetsInVmap> selectionSetsInPrefabByPrefabEntityId { get; private set; } = new();
 
 
-		public ParsedVMapData? GetParsedVMapData(string[] args)
+		public static ParsedVMapData? GetParsedVMapData(string[] args)
         {
             var successfullyHandledArgs = ConfigurationSorter.HandleArgs(args);
             if (!successfullyHandledArgs)
@@ -25,7 +25,7 @@ namespace KeyValues2Parser
             return new ParsedVMapData(selectionSetsInMainVmap, selectionSetsInPrefabByPrefabEntityId, vmapContents);
 		}
 
-		private VMapContents? ParseVmap()
+		private static VMapContents? ParseVmap()
 		{
 			VMapContents? vmapContents = ConfigurationSorter.SetVmapAndContentsAndConfigurationValues(ConfigurationSorter.dmxConvertFilepath, ConfigurationSorter.vmapDecodedFolderPath);
 			if (vmapContents == null)
@@ -60,7 +60,7 @@ namespace KeyValues2Parser
 		}
 
 
-        private void CorrectOverlayOriginsAndAngles(IEnumerable<VBlock> entityList)
+        private static void CorrectOverlayOriginsAndAngles(IEnumerable<VBlock> entityList)
         {
             foreach (var entity in entityList)
             {
@@ -102,7 +102,7 @@ namespace KeyValues2Parser
         }
 
 
-        private void SortMainVmap(List<VBlock> allEntities, List<VBlock> allWorldMeshes, List<VBlock> allInstanceGroups)
+        private static void SortMainVmap(List<VBlock> allEntities, List<VBlock> allWorldMeshes, List<VBlock> allInstanceGroups)
         {
             // correct overlay origins and angles
             Console.WriteLine("Correcting overlay origins and angles...");
@@ -211,13 +211,13 @@ namespace KeyValues2Parser
             }
         }
 
-        private void SetSelectionSetIdsInMainVmap()
+        private static void SetSelectionSetIdsInMainVmap()
         {
             selectionSetsInMainVmap = GetSelectionSetsInVmap(ConfigurationSorter.vmap);
         }
 
 
-        private void SetSelectionSetIdsInPrefabsByPrefabEntityId()
+        private static void SetSelectionSetIdsInPrefabsByPrefabEntityId()
         {
             if (ConfigurationSorter.prefabEntityIdsByVmap != null && ConfigurationSorter.prefabEntityIdsByVmap.Any())
             {
@@ -234,7 +234,7 @@ namespace KeyValues2Parser
         }
 
 
-        private SelectionSetsInVmap GetSelectionSetsInVmap(VMap vmap)
+        private static SelectionSetsInVmap GetSelectionSetsInVmap(VMap vmap)
         {
             var selectionSetsInVmap = new SelectionSetsInVmap()
             {
@@ -245,7 +245,7 @@ namespace KeyValues2Parser
         }
 
 
-        private VSelectionSet? GetSelectionSetInVmap(VMap vmap, List<string> selectionSetNamesList)
+        private static VSelectionSet? GetSelectionSetInVmap(VMap vmap, List<string> selectionSetNamesList)
         {
             if (vmap.CMapRootElement == null)
                 return null;
