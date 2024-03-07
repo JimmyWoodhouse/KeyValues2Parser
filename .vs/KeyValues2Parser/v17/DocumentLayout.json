@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\keyvalues2parser.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\keyvalues2parser.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\vmapcontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\vmapcontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|solutionrelative:keyvalues2parser\\models\\parsedvmapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E86F1CA3-22FA-4F55-98C2-3BBC1D948AEB}|KeyValues2Parser\\KeyValues2Parser.csproj|f:\\coding stuff\\github files\\keyvalues2parser\\keyvalues2parser\\directoryandfilehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,19 +118,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "KeyValues2Parser",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
               "RelativeDocumentMoniker": "KeyValues2Parser\\KeyValues2Parser.csproj",
               "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
               "RelativeToolTip": "KeyValues2Parser\\KeyValues2Parser.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-07T03:03:37.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T03:03:37.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "KeyValues2Parser.csproj",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\KeyValues2Parser.csproj",
               "RelativeDocumentMoniker": "KeyValues2Parser\\KeyValues2Parser.csproj",
@@ -148,14 +147,14 @@
               "RelativeDocumentMoniker": "KeyValues2Parser\\README.md",
               "ToolTip": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\README.md",
               "RelativeToolTip": "KeyValues2Parser\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAgAAAA",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAAAAIBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-03-07T01:52:22.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ParsedVMapDataGatherer.cs",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ParsedVMapDataGatherer.cs",
               "RelativeDocumentMoniker": "KeyValues2Parser\\ParsedVMapDataGatherer.cs",
@@ -179,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ConfigurationSorter.cs",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\ConfigurationSorter.cs",
               "RelativeDocumentMoniker": "KeyValues2Parser\\ConfigurationSorter.cs",
@@ -227,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ParsedVMapData.cs",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\ParsedVMapData.cs",
               "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\ParsedVMapData.cs",
@@ -235,7 +234,8 @@
               "RelativeToolTip": "KeyValues2Parser\\Models\\ParsedVMapData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T01:27:32.459Z"
+              "WhenOpened": "2024-03-07T01:27:32.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -275,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "VMapContents.cs",
               "DocumentMoniker": "F:\\Coding Stuff\\GitHub Files\\KeyValues2Parser\\KeyValues2Parser\\Models\\VMapContents.cs",
               "RelativeDocumentMoniker": "KeyValues2Parser\\Models\\VMapContents.cs",

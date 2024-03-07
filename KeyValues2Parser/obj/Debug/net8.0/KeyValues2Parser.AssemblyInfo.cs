@@ -16,7 +16,7 @@ using System.Reflection;
     " will need to decode the file to a kv2 format first, using \'dmxconvert.exe\' (thi" +
     "s is provided by Valve).\r\nTested with Counter-Strike 2 VMAP files only.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.5+8685ea2e790afc436a4313aa933899fc8bb73923")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.5+0cdaffc0be929e31b2d22ee60c3e073cd7c0bb75")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyValues2Parser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyValues2Parser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.5.0")]

@@ -4,13 +4,13 @@ There is no need to decode a file to kv2 format first, as this package does this
 Tested with Counter-Strike 2 VMAP files only.
 
 Data should be retrieved by calling the GetParsedVMapData() method in ParsedVMapDataGatherer.cs.
-You need to provide 2 arguments to this method, -game and -vmapFilepath, explained more below.
+You need to provide 2 arguments to this method, -game and -vmapFilepath, explained below.
 
 
 
 Example code:
 
-
+```
 using KeyValues2Parser;
 using KeyValues2Parser.Constants;
 using KeyValues2Parser.Models;
@@ -28,7 +28,7 @@ namespace YourProject
         {
             GetVmapRequiredData(args);
         }
-        
+
         private static void GetVmapRequiredData(string[] args)
         {
             var parsedVMapData = ParsedVMapDataGatherer.GetParsedVMapData(args);
@@ -42,7 +42,7 @@ namespace YourProject
             List<VBlock> allInstanceGroups = parsedVMapData.VMapContents.AllInstanceGroups;
             List<VBlock> allInstances = parsedVMapData.VMapContents.AllInstances;
             List<VBlock> allPrefabs = parsedVMapData.VMapContents.AllPrefabs;
-            
+
             Console.WriteLine();
             Console.WriteLine("Getting required data from the main vmap and prefabs...");
 
@@ -343,3 +343,4 @@ namespace YourProject
         }
 	}
 }
+```
